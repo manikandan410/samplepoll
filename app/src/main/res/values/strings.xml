@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Poll</string>
+    <string name="Create_room">Add a Room Title</string>
+    <string name="language_defalt">English</string>
+    <string name="language">English</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>தமிழ்</item>
+        <item>हिन्दी</item>
+    </string-array>
+</resources>
