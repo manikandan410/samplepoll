@@ -10,8 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Poll">
         <activity
-            android:name=".Getdata"
+            android:name=".item_participant"
             android:exported="false" />
+        <activity
+            android:name=".group_call"
+            android:exported="false"
+            android:label="@string/title_activity_group_call"
+            android:theme="@style/Theme.Poll.NoActionBar" />
+        <activity
+            android:name=".room"
+            android:exported="false" />
+        <activity
+            android:name=".preview"
+            android:exported="false" />
+        <activity
+            android:name=".dialog_room_cration"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+
         <activity
             android:name=".CreateArgument_Activity"
             android:exported="false" />

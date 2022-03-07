@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var startroom: Button
     private lateinit var dbref : DatabaseReference
     private lateinit var userRecyclerView: RecyclerView
-    private lateinit var userArrayList: ArrayList<RoomUser>
+    private lateinit var userArrayList: ArrayList<User>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         userRecyclerView.layoutManager = LinearLayoutManager(this)
         userRecyclerView.setHasFixedSize(true)
 
-        userArrayList = arrayListOf<RoomUser>()
+        userArrayList = arrayListOf<User>()
         getUserData()
 
     }
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()){
                     for (userSnapshot in snapshot.children){
-                        val user = userSnapshot.getValue(RoomUser::class.java)
+                        val user = userSnapshot.getValue(User::class.java)
                         userArrayList.add((user!!))
                     }
                     userRecyclerView.adapter = MyRoomAdapter(userArrayList)

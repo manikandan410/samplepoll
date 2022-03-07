@@ -3,9 +3,35 @@
     <string name="Create_room">Add a Room Title</string>
     <string name="language_defalt">English</string>
     <string name="language">English</string>
+    <string name="dashboard_create_room_title">Create A room</string>
+    <string name="dashboard_create_room_description">Start a group call in a room and share the room ID with others</string>
+    <string name="dashboard_create_room_button">Create</string>
+    <string name="dashboard_enter_with_room_id_title">Enter with room ID</string>
+    <string name="dashboard_enter_with_room_id_description">Enter an exiting room to participate in a group call</string>
+    <string name="dashboard_hint_room_id">Room ID</string>
+    <string name="dashboard_button_enter">Enter</string>
+    <string name="group_call_created_room_title">Room created!</string>
+    <string name="group_call_created_room_message">Share the room ID for others to enter this room for group calls </string>
+    <string name="group_call_room_id">Room ID</string>
+    <string name="ok">ok</string>
+    <string name="preview_title">Enter room</string>
+    <string name="preview_mute_my_audio">Mute my audio</string>
+    <string name="preview_turn_off_my_video">Turn off my video</string>
+    <string name="preview_enter">Enter</string>
+    <string name="group_call_participants">participants</string>
     <string-array name="languages">
         <item>English</item>
         <item>தமிழ்</item>
         <item>हिन्दी</item>
     </string-array>
+    <string name="title_activity_group_call">group_call</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
 </resources>

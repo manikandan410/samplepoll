@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 
-class MyRoomAdapter(private val roomList : ArrayList<RoomUser>) : RecyclerView.Adapter<MyRoomAdapter
+class MyRoomAdapter(private val roomList : ArrayList<User>) : RecyclerView.Adapter<MyRoomAdapter
                                                                    .MyviewHolder>() {
 
 
@@ -21,7 +21,7 @@ class MyRoomAdapter(private val roomList : ArrayList<RoomUser>) : RecyclerView.A
 
     override fun onBindViewHolder(holder: MyviewHolder, position: Int) {
         val currentitem = roomList[position]
-        holder.title.text = currentitem.title
+        holder.title.text = currentitem.createtitle
         holder.language.text = currentitem.language
         holder.handrise.text = currentitem.handrise
     }
